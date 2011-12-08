@@ -27,4 +27,5 @@ This plugin save virtualenv name to ``pythonworkon`` variable of vim so if you w
 
 And you will see something like below
 
-.. Figure:: http://hashnote.net/storage/5/preview/
+
+.. Image:: http://hashnote.net/storage/5/preview/
