@@ -22,4 +22,7 @@ if 'VIRTUAL_ENV' in os.environ:
     execfile(activate_this, dict(__file__=activate_this))
     # Save virtual environment name to VIM variable
     vim.command("let g:pythonworkon = '%s'" % os.path.basename(project_base_dir))
+
+    # ref.vim
+    vim.command("if !exists('g:ref_pydoc_cmd') | let g:ref_pydoc_cmd = 'python -m pydoc' | endif")
 EOF
